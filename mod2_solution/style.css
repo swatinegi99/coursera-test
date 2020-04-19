@@ -1,0 +1,141 @@
+h1 {
+    text-align: center ;
+    font-family:comic Sans Ms;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+section {
+    background-color: rgba(95, 95, 95, 0.651);
+    font-family:comic Sans Ms;
+    border : 2px solid black ;
+    width: 480px;
+    height: 200px;
+    position: relative;
+    padding: 55px 20px 20px 20px;
+    box-sizing: border-box;
+    float:left;
+    margin-left: 20px;
+} 
+
+
+#p1 {
+    background-color:orange;
+    text-align: center;
+    font-family:comic Sans Ms;
+    border: 2px solid black ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 0;
+    border-right: 0;
+    margin-top: 0;
+    width :45%;
+    height : 10% ;
+    padding: 5px;   
+}
+
+#p2 {
+    background-color: yellow;
+    text-align: center;
+    font-family:comic Sans Ms;
+    border: 2px solid black ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 0;
+    border-right: 0;
+    width :45%;
+    height : 10% ;
+    padding: 5px ;
+    margin-bottom: 10px;
+    margin-left: 334px;
+    margin-top: 0;
+    float: left;
+}
+
+#p3 {
+    background-color: lightgreen;
+    font-family:comic Sans Ms;
+    text-align: center;
+    border: 2px solid black ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 0;
+    border-right: 0;
+    width :180px;
+    height : 10% ;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 334px;
+    margin-top: 0;
+    float:left;
+        
+}
+
+
+@media(min-width: 992px){
+    section {
+        background-color: rgba(95, 95, 95, 0.651);
+        font-family:comic Sans Ms;
+        border : 2px solid black ;
+        width: 30%;
+        height: 40%;
+        position: relative;
+        padding: 55px 20px 20px 20px;
+        box-sizing: border-box;
+        float:left;
+        margin-left: 20px;
+    }  
+}
+    
+
+@media (min-width: 768px) and (max-width: 991px){
+    section {
+        background-color: rgba(95, 95, 95, 0.651);
+        font-family:comic Sans Ms;
+        border : 2px solid black ;
+        width: 47%;
+        height: 55%;
+        position: relative;
+        padding: 55px 20px 20px 20px;
+        box-sizing: border-box;
+        float:left;
+        margin-left: 20px;
+    }   
+    
+    #box3{
+        background-color: rgba(95, 95, 95, 0.651);
+        font-family:comic Sans Ms;
+        border : 2px solid black ;
+        width: 96.5%;
+        height: 180px;
+        position: relative;
+        padding: 55px 20px 20px 20px;
+        box-sizing: border-box;
+        clear:left;
+        margin-left: 20px;
+        margin-top: 20px;
+
+    }
+
+}
+
+@media(max-width : 767px){
+    section {
+        background-color: rgba(95, 95, 95, 0.651);
+        font-family:comic Sans Ms;
+        border : 2px solid black ;
+        width: 70%;
+        height: 60%;
+        position: relative;
+        padding: 55px 20px 20px 20px;
+        box-sizing: border-box;
+        float:left;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+}
+
